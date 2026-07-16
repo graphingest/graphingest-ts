@@ -8,8 +8,9 @@
     "build": "tsc",
     "dev": "tsc --watch"
   },
-  "files": ["dist"],
-  "dependencies": {},
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {
     "zod": ">=3.0.0"
   },
@@ -20,6 +21,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^20.19.43",
     "typescript": "^5.3.0"
   }
 }
